@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
- A fully responsive website not only adjusts to different sized spaces naturally but also has custom setups implimented to make the entire layout change size and design based on the overall size of the screen. A good example is a row layout on the nav for desktop but changing to a column layout for mobile at 500px.
+ A fully responsive website not only adjusts to different sized spaces naturally but also has custom setups implemented to make the entire layout change size and design based on the overall size of the screen. A good example is a row layout on the nav for desktop but changing to a column layout for mobile at 500px.
 
 2. Describe what it means to be mobile first vs desktop first.
 
