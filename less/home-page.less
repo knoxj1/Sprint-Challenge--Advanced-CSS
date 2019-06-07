@@ -4,6 +4,11 @@
 
   .intro {
 
+    img {
+      border-radius: 5px;
+      .set-width;
+    }
+
     h2 {
       padding: 15px;
     }
@@ -58,6 +63,7 @@
       }
 
       .btn {
+        .button-style
       }
     }
 
@@ -69,6 +75,46 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
+      }
+    }
+  }
+  @media @phone {
+
+    .space-images {
+      .blast {
+       .set-width;
+      }
+      .sky {
+        display: none;
+      }
+      .launch {
+        display: none;
+      }
+    }
+    .walk {
+      display: flex;
+      flex-flow: column wrap;
+      .set-width;
+      padding: 0;
+      margin: 0 auto;
+
+      .walk-text{
+        .set-width;
+        order: 2;
+
+        .btn {
+          max-width: 90%;
+          width: 90%;
+          padding-bottom: 20px;
+          padding-top: 20px;
+          margin-left: 5%;
+          margin-right: 5%
+        }
+      }
+      .walk-img {
+        .set-width;
+        order: 1;
+        margin: 0 auto;
       }
     }
   }
